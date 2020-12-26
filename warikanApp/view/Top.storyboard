@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uMj-lW-dyK">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Top View Controller-->
+        <scene sceneID="Qax-PF-KYg">
+            <objects>
+                <viewController storyboardIdentifier="top" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jeY-rc-F8u" customClass="TopViewController" customModule="warikanApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gp8-cT-1Jb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="傾斜割り勘くん" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1z-EZ-9aZ">
+                                <rect key="frame" x="0.0" y="69" width="375" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logp2" translatesAutoresizingMaskIntoConstraints="NO" id="DVY-Pi-7TU">
+                                <rect key="frame" x="60" y="130" width="255" height="256"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgX-df-6DL">
+                                <rect key="frame" x="5" y="416" width="365" height="36"/>
+                                <color key="backgroundColor" red="0.97934550050000002" green="0.50294039180000005" blue="0.15563999819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="割り勘を計算する">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonPressed:" destination="jeY-rc-F8u" eventType="touchUpInside" id="lMx-Ho-CbK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1e-Fe-p4A">
+                                <rect key="frame" x="5" y="482" width="365" height="36"/>
+                                <color key="backgroundColor" red="0.97934550050000002" green="0.50294039180000005" blue="0.15563999819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="お会計履歴を見る">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcListButtonPressed:" destination="jeY-rc-F8u" eventType="touchUpInside" id="3fP-Bb-mtZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="E5u-Hb-PxN"/>
+                        <color key="backgroundColor" red="0.97934550050000002" green="0.62571974411100284" blue="0.44040899491029295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="E5u-Hb-PxN" firstAttribute="trailing" secondItem="X1z-EZ-9aZ" secondAttribute="trailing" id="4JF-CN-bpY"/>
+                            <constraint firstItem="X1z-EZ-9aZ" firstAttribute="leading" secondItem="E5u-Hb-PxN" secondAttribute="leading" id="Dcw-DD-Bjd"/>
+                            <constraint firstItem="X1z-EZ-9aZ" firstAttribute="top" secondItem="E5u-Hb-PxN" secondAttribute="top" constant="25" id="Dft-MR-8Tj"/>
+                            <constraint firstItem="DVY-Pi-7TU" firstAttribute="leading" secondItem="E5u-Hb-PxN" secondAttribute="leading" constant="60" id="KWB-ur-TTc"/>
+                            <constraint firstItem="UgX-df-6DL" firstAttribute="top" secondItem="DVY-Pi-7TU" secondAttribute="bottom" constant="30" id="M2u-T3-GFo"/>
+                            <constraint firstItem="UgX-df-6DL" firstAttribute="leading" secondItem="E5u-Hb-PxN" secondAttribute="leading" constant="5" id="MH5-LW-8vb"/>
+                            <constraint firstItem="w1e-Fe-p4A" firstAttribute="leading" secondItem="E5u-Hb-PxN" secondAttribute="leading" constant="5" id="PYw-KX-H25"/>
+                            <constraint firstItem="DVY-Pi-7TU" firstAttribute="top" secondItem="X1z-EZ-9aZ" secondAttribute="bottom" constant="25" id="cLc-kB-wmy"/>
+                            <constraint firstItem="E5u-Hb-PxN" firstAttribute="trailing" secondItem="DVY-Pi-7TU" secondAttribute="trailing" constant="60" id="e4X-ck-R0D"/>
+                            <constraint firstItem="E5u-Hb-PxN" firstAttribute="trailing" secondItem="w1e-Fe-p4A" secondAttribute="trailing" constant="5" id="igf-CL-rht"/>
+                            <constraint firstItem="w1e-Fe-p4A" firstAttribute="top" secondItem="UgX-df-6DL" secondAttribute="bottom" constant="30" id="mQt-Az-x4m"/>
+                            <constraint firstItem="E5u-Hb-PxN" firstAttribute="trailing" secondItem="UgX-df-6DL" secondAttribute="trailing" constant="5" id="omZ-Le-PMg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ieX-xj-Kuk"/>
+                    <connections>
+                        <outlet property="calcButton" destination="UgX-df-6DL" id="e6U-39-XNE"/>
+                        <outlet property="calcHistButton" destination="w1e-Fe-p4A" id="b2l-gv-Vxq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z8h-91-1dN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704.34782608695662" y="-68.303571428571431"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="be0-Si-vlg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uMj-lW-dyK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wzf-LM-yYe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jeY-rc-F8u" kind="relationship" relationship="rootViewController" id="CYb-wX-amf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Gl-JT-qFz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-204.34782608695653" y="-68.303571428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logp2" width="256" height="256"/>
+    </resources>
+</document>

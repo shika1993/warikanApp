@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FDCAC2BE078AD200B86291E /* Pods_warikanApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4CE96FB69C0E097F35F9CE /* Pods_warikanApp.framework */; };
+		37A95ACA25209DBE0073C7C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A95AC925209DBE0073C7C0 /* AppDelegate.swift */; };
+		37A95ACC25209DBE0073C7C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A95ACB25209DBE0073C7C0 /* SceneDelegate.swift */; };
+		37A95AD325209DBF0073C7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A95AD225209DBF0073C7C0 /* Assets.xcassets */; };
+		37A95AD625209DBF0073C7C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A95AD425209DBF0073C7C0 /* LaunchScreen.storyboard */; };
+		37A95AE125209DC00073C7C0 /* warikanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A95AE025209DC00073C7C0 /* warikanAppTests.swift */; };
+		37A95AEC25209DC00073C7C0 /* warikanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A95AEB25209DC00073C7C0 /* warikanAppUITests.swift */; };
+		37A95B0925209E6D0073C7C0 /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A95B0825209E6D0073C7C0 /* Top.storyboard */; };
+		37A95B1A2520A06C0073C7C0 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A95B192520A06C0073C7C0 /* TopViewController.swift */; };
+		37A95B332520A5280073C7C0 /* Calc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A95B322520A5280073C7C0 /* Calc.storyboard */; };
+		37A95B382520A5410073C7C0 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A95B372520A5410073C7C0 /* CalcViewController.swift */; };
+		37A95B462520A9EF0073C7C0 /* CalcResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A95B452520A9EF0073C7C0 /* CalcResult.storyboard */; };
+		37A95B4B2520AA140073C7C0 /* CalcResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A95B4A2520AA140073C7C0 /* CalcResultViewController.swift */; };
+		37A95B592520ABD70073C7C0 /* CalcList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A95B582520ABD70073C7C0 /* CalcList.storyboard */; };
+		37A95B5E2520ABE60073C7C0 /* CalcListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A95B5D2520ABE60073C7C0 /* CalcListViewController.swift */; };
+		37A95B642520AE050073C7C0 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A95B622520AE050073C7C0 /* CustomCell.swift */; };
+		37A95B652520AE050073C7C0 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A95B632520AE050073C7C0 /* CustomCell.xib */; };
+		37A95B72252359EF0073C7C0 /* CalcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A95B71252359EF0073C7C0 /* CalcModel.swift */; };
+		37E5BCB225580BCA00665483 /* CalcResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5BCB125580BCA00665483 /* CalcResult.swift */; };
+		98606955C5E8C70C566E6C45 /* Pods_warikanAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA1CC76683660771B3F0FDF /* Pods_warikanAppTests.framework */; };
+		C3E9600B94ED2902F32673B4 /* Pods_warikanApp_warikanAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97272EB889B85B76EC9749F9 /* Pods_warikanApp_warikanAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37A95ADD25209DC00073C7C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37A95ABE25209DBE0073C7C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37A95AC525209DBE0073C7C0;
+			remoteInfo = warikanApp;
+		};
+		37A95AE825209DC00073C7C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37A95ABE25209DBE0073C7C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37A95AC525209DBE0073C7C0;
+			remoteInfo = warikanApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37A95AC625209DBE0073C7C0 /* warikanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = warikanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A95AC925209DBE0073C7C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37A95ACB25209DBE0073C7C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		37A95AD225209DBF0073C7C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37A95AD525209DBF0073C7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37A95AD725209DBF0073C7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A95ADC25209DC00073C7C0 /* warikanAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warikanAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A95AE025209DC00073C7C0 /* warikanAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warikanAppTests.swift; sourceTree = "<group>"; };
+		37A95AE225209DC00073C7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A95AE725209DC00073C7C0 /* warikanAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warikanAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A95AEB25209DC00073C7C0 /* warikanAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warikanAppUITests.swift; sourceTree = "<group>"; };
+		37A95AED25209DC00073C7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A95B0825209E6D0073C7C0 /* Top.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Top.storyboard; sourceTree = "<group>"; };
+		37A95B192520A06C0073C7C0 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		37A95B322520A5280073C7C0 /* Calc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calc.storyboard; sourceTree = "<group>"; };
+		37A95B372520A5410073C7C0 /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
+		37A95B452520A9EF0073C7C0 /* CalcResult.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalcResult.storyboard; sourceTree = "<group>"; };
+		37A95B4A2520AA140073C7C0 /* CalcResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcResultViewController.swift; sourceTree = "<group>"; };
+		37A95B582520ABD70073C7C0 /* CalcList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalcList.storyboard; sourceTree = "<group>"; };
+		37A95B5D2520ABE60073C7C0 /* CalcListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcListViewController.swift; sourceTree = "<group>"; };
+		37A95B622520AE050073C7C0 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		37A95B632520AE050073C7C0 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		37A95B71252359EF0073C7C0 /* CalcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcModel.swift; sourceTree = "<group>"; };
+		37E5BCB125580BCA00665483 /* CalcResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcResult.swift; sourceTree = "<group>"; };
+		5C90BAD13C0D9BA082327B4E /* Pods-warikanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-warikanApp.release.xcconfig"; path = "Target Support Files/Pods-warikanApp/Pods-warikanApp.release.xcconfig"; sourceTree = "<group>"; };
+		65CB3C328ED6F2D35363FED6 /* Pods-warikanAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-warikanAppTests.release.xcconfig"; path = "Target Support Files/Pods-warikanAppTests/Pods-warikanAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B4CE96FB69C0E097F35F9CE /* Pods_warikanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_warikanApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C801403706D2B2FC16A7DBE /* Pods-warikanApp-warikanAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-warikanApp-warikanAppUITests.release.xcconfig"; path = "Target Support Files/Pods-warikanApp-warikanAppUITests/Pods-warikanApp-warikanAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97272EB889B85B76EC9749F9 /* Pods_warikanApp_warikanAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_warikanApp_warikanAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B386E14ADFF0DDE774791CA2 /* Pods-warikanAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-warikanAppTests.debug.xcconfig"; path = "Target Support Files/Pods-warikanAppTests/Pods-warikanAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD4C434D1AB967AB5BCD8D42 /* Pods-warikanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-warikanApp.debug.xcconfig"; path = "Target Support Files/Pods-warikanApp/Pods-warikanApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D8D67913DED72123F8818DCD /* Pods-warikanApp-warikanAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-warikanApp-warikanAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-warikanApp-warikanAppUITests/Pods-warikanApp-warikanAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDA1CC76683660771B3F0FDF /* Pods_warikanAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_warikanAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37A95AC325209DBE0073C7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDCAC2BE078AD200B86291E /* Pods_warikanApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A95AD925209DC00073C7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98606955C5E8C70C566E6C45 /* Pods_warikanAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A95AE425209DC00073C7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E9600B94ED2902F32673B4 /* Pods_warikanApp_warikanAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37A95ABD25209DBE0073C7C0 = {
+			isa = PBXGroup;
+			children = (
+				37A95AC825209DBE0073C7C0 /* warikanApp */,
+				37A95ADF25209DC00073C7C0 /* warikanAppTests */,
+				37A95AEA25209DC00073C7C0 /* warikanAppUITests */,
+				37A95AC725209DBE0073C7C0 /* Products */,
+				61690F2ADD1B2E3F64EA939B /* Pods */,
+				579E578E27DC30F991FECAD1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37A95AC725209DBE0073C7C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37A95AC625209DBE0073C7C0 /* warikanApp.app */,
+				37A95ADC25209DC00073C7C0 /* warikanAppTests.xctest */,
+				37A95AE725209DC00073C7C0 /* warikanAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37A95AC825209DBE0073C7C0 /* warikanApp */ = {
+			isa = PBXGroup;
+			children = (
+				37A95AFC25209E070073C7C0 /* model */,
+				37A95AFD25209E130073C7C0 /* view */,
+				37A95AFE25209E190073C7C0 /* controller */,
+				37A95AC925209DBE0073C7C0 /* AppDelegate.swift */,
+				37A95ACB25209DBE0073C7C0 /* SceneDelegate.swift */,
+				37A95AD225209DBF0073C7C0 /* Assets.xcassets */,
+				37A95AD725209DBF0073C7C0 /* Info.plist */,
+			);
+			path = warikanApp;
+			sourceTree = "<group>";
+		};
+		37A95ADF25209DC00073C7C0 /* warikanAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				37A95AE025209DC00073C7C0 /* warikanAppTests.swift */,
+				37A95AE225209DC00073C7C0 /* Info.plist */,
+			);
+			path = warikanAppTests;
+			sourceTree = "<group>";
+		};
+		37A95AEA25209DC00073C7C0 /* warikanAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37A95AEB25209DC00073C7C0 /* warikanAppUITests.swift */,
+				37A95AED25209DC00073C7C0 /* Info.plist */,
+			);
+			path = warikanAppUITests;
+			sourceTree = "<group>";
+		};
+		37A95AFC25209E070073C7C0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				37A95B71252359EF0073C7C0 /* CalcModel.swift */,
+				37E5BCB125580BCA00665483 /* CalcResult.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		37A95AFD25209E130073C7C0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				37A95B0825209E6D0073C7C0 /* Top.storyboard */,
+				37A95B322520A5280073C7C0 /* Calc.storyboard */,
+				37A95B452520A9EF0073C7C0 /* CalcResult.storyboard */,
+				37A95B582520ABD70073C7C0 /* CalcList.storyboard */,
+				37A95B632520AE050073C7C0 /* CustomCell.xib */,
+				37A95AD425209DBF0073C7C0 /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		37A95AFE25209E190073C7C0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				37A95B192520A06C0073C7C0 /* TopViewController.swift */,
+				37A95B372520A5410073C7C0 /* CalcViewController.swift */,
+				37A95B4A2520AA140073C7C0 /* CalcResultViewController.swift */,
+				37A95B5D2520ABE60073C7C0 /* CalcListViewController.swift */,
+				37A95B622520AE050073C7C0 /* CustomCell.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		579E578E27DC30F991FECAD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B4CE96FB69C0E097F35F9CE /* Pods_warikanApp.framework */,
+				97272EB889B85B76EC9749F9 /* Pods_warikanApp_warikanAppUITests.framework */,
+				DDA1CC76683660771B3F0FDF /* Pods_warikanAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61690F2ADD1B2E3F64EA939B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD4C434D1AB967AB5BCD8D42 /* Pods-warikanApp.debug.xcconfig */,
+				5C90BAD13C0D9BA082327B4E /* Pods-warikanApp.release.xcconfig */,
+				D8D67913DED72123F8818DCD /* Pods-warikanApp-warikanAppUITests.debug.xcconfig */,
+				8C801403706D2B2FC16A7DBE /* Pods-warikanApp-warikanAppUITests.release.xcconfig */,
+				B386E14ADFF0DDE774791CA2 /* Pods-warikanAppTests.debug.xcconfig */,
+				65CB3C328ED6F2D35363FED6 /* Pods-warikanAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37A95AC525209DBE0073C7C0 /* warikanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A95AF025209DC00073C7C0 /* Build configuration list for PBXNativeTarget "warikanApp" */;
+			buildPhases = (
+				1A5BB23DB6D1FB793E022E98 /* [CP] Check Pods Manifest.lock */,
+				37A95AC225209DBE0073C7C0 /* Sources */,
+				37A95AC325209DBE0073C7C0 /* Frameworks */,
+				37A95AC425209DBE0073C7C0 /* Resources */,
+				9EA929A04596607417454AB5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = warikanApp;
+			productName = warikanApp;
+			productReference = 37A95AC625209DBE0073C7C0 /* warikanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37A95ADB25209DC00073C7C0 /* warikanAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A95AF325209DC00073C7C0 /* Build configuration list for PBXNativeTarget "warikanAppTests" */;
+			buildPhases = (
+				18211526D52FFA8A83B4E7D0 /* [CP] Check Pods Manifest.lock */,
+				37A95AD825209DC00073C7C0 /* Sources */,
+				37A95AD925209DC00073C7C0 /* Frameworks */,
+				37A95ADA25209DC00073C7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37A95ADE25209DC00073C7C0 /* PBXTargetDependency */,
+			);
+			name = warikanAppTests;
+			productName = warikanAppTests;
+			productReference = 37A95ADC25209DC00073C7C0 /* warikanAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37A95AE625209DC00073C7C0 /* warikanAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A95AF625209DC00073C7C0 /* Build configuration list for PBXNativeTarget "warikanAppUITests" */;
+			buildPhases = (
+				A2BD5865F627ACC8CABF16F0 /* [CP] Check Pods Manifest.lock */,
+				37A95AE325209DC00073C7C0 /* Sources */,
+				37A95AE425209DC00073C7C0 /* Frameworks */,
+				37A95AE525209DC00073C7C0 /* Resources */,
+				EB3120A26C1BA311050E9D40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37A95AE925209DC00073C7C0 /* PBXTargetDependency */,
+			);
+			name = warikanAppUITests;
+			productName = warikanAppUITests;
+			productReference = 37A95AE725209DC00073C7C0 /* warikanAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37A95ABE25209DBE0073C7C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					37A95AC525209DBE0073C7C0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					37A95ADB25209DC00073C7C0 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 37A95AC525209DBE0073C7C0;
+					};
+					37A95AE625209DC00073C7C0 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 37A95AC525209DBE0073C7C0;
+					};
+				};
+			};
+			buildConfigurationList = 37A95AC125209DBE0073C7C0 /* Build configuration list for PBXProject "warikanApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37A95ABD25209DBE0073C7C0;
+			productRefGroup = 37A95AC725209DBE0073C7C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37A95AC525209DBE0073C7C0 /* warikanApp */,
+				37A95ADB25209DC00073C7C0 /* warikanAppTests */,
+				37A95AE625209DC00073C7C0 /* warikanAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37A95AC425209DBE0073C7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A95AD625209DBF0073C7C0 /* LaunchScreen.storyboard in Resources */,
+				37A95B592520ABD70073C7C0 /* CalcList.storyboard in Resources */,
+				37A95B652520AE050073C7C0 /* CustomCell.xib in Resources */,
+				37A95B332520A5280073C7C0 /* Calc.storyboard in Resources */,
+				37A95AD325209DBF0073C7C0 /* Assets.xcassets in Resources */,
+				37A95B0925209E6D0073C7C0 /* Top.storyboard in Resources */,
+				37A95B462520A9EF0073C7C0 /* CalcResult.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A95ADA25209DC00073C7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A95AE525209DC00073C7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18211526D52FFA8A83B4E7D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-warikanAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A5BB23DB6D1FB793E022E98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-warikanApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EA929A04596607417454AB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-warikanApp/Pods-warikanApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-warikanApp/Pods-warikanApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-warikanApp/Pods-warikanApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2BD5865F627ACC8CABF16F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-warikanApp-warikanAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB3120A26C1BA311050E9D40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-warikanApp-warikanAppUITests/Pods-warikanApp-warikanAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-warikanApp-warikanAppUITests/Pods-warikanApp-warikanAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-warikanApp-warikanAppUITests/Pods-warikanApp-warikanAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37A95AC225209DBE0073C7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A95B4B2520AA140073C7C0 /* CalcResultViewController.swift in Sources */,
+				37A95B1A2520A06C0073C7C0 /* TopViewController.swift in Sources */,
+				37A95B382520A5410073C7C0 /* CalcViewController.swift in Sources */,
+				37A95ACA25209DBE0073C7C0 /* AppDelegate.swift in Sources */,
+				37A95ACC25209DBE0073C7C0 /* SceneDelegate.swift in Sources */,
+				37A95B642520AE050073C7C0 /* CustomCell.swift in Sources */,
+				37A95B72252359EF0073C7C0 /* CalcModel.swift in Sources */,
+				37A95B5E2520ABE60073C7C0 /* CalcListViewController.swift in Sources */,
+				37E5BCB225580BCA00665483 /* CalcResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A95AD825209DC00073C7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A95AE125209DC00073C7C0 /* warikanAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A95AE325209DC00073C7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A95AEC25209DC00073C7C0 /* warikanAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37A95ADE25209DC00073C7C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37A95AC525209DBE0073C7C0 /* warikanApp */;
+			targetProxy = 37A95ADD25209DC00073C7C0 /* PBXContainerItemProxy */;
+		};
+		37A95AE925209DC00073C7C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37A95AC525209DBE0073C7C0 /* warikanApp */;
+			targetProxy = 37A95AE825209DC00073C7C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37A95AD425209DBF0073C7C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A95AD525209DBF0073C7C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37A95AEE25209DC00073C7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37A95AEF25209DC00073C7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37A95AF125209DC00073C7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4C434D1AB967AB5BCD8D42 /* Pods-warikanApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWA92GQ7CG;
+				INFOPLIST_FILE = warikanApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoheiShikanai.warikanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		37A95AF225209DC00073C7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C90BAD13C0D9BA082327B4E /* Pods-warikanApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWA92GQ7CG;
+				INFOPLIST_FILE = warikanApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoheiShikanai.warikanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		37A95AF425209DC00073C7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B386E14ADFF0DDE774791CA2 /* Pods-warikanAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWA92GQ7CG;
+				INFOPLIST_FILE = warikanAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoheiShikanai.warikanAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/warikanApp.app/warikanApp";
+			};
+			name = Debug;
+		};
+		37A95AF525209DC00073C7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65CB3C328ED6F2D35363FED6 /* Pods-warikanAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWA92GQ7CG;
+				INFOPLIST_FILE = warikanAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoheiShikanai.warikanAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/warikanApp.app/warikanApp";
+			};
+			name = Release;
+		};
+		37A95AF725209DC00073C7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D67913DED72123F8818DCD /* Pods-warikanApp-warikanAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWA92GQ7CG;
+				INFOPLIST_FILE = warikanAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoheiShikanai.warikanAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = warikanApp;
+			};
+			name = Debug;
+		};
+		37A95AF825209DC00073C7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C801403706D2B2FC16A7DBE /* Pods-warikanApp-warikanAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWA92GQ7CG;
+				INFOPLIST_FILE = warikanAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoheiShikanai.warikanAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = warikanApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37A95AC125209DBE0073C7C0 /* Build configuration list for PBXProject "warikanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A95AEE25209DC00073C7C0 /* Debug */,
+				37A95AEF25209DC00073C7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A95AF025209DC00073C7C0 /* Build configuration list for PBXNativeTarget "warikanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A95AF125209DC00073C7C0 /* Debug */,
+				37A95AF225209DC00073C7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A95AF325209DC00073C7C0 /* Build configuration list for PBXNativeTarget "warikanAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A95AF425209DC00073C7C0 /* Debug */,
+				37A95AF525209DC00073C7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A95AF625209DC00073C7C0 /* Build configuration list for PBXNativeTarget "warikanAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A95AF725209DC00073C7C0 /* Debug */,
+				37A95AF825209DC00073C7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37A95ABE25209DBE0073C7C0 /* Project object */;
+}
